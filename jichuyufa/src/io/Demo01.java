@@ -9,7 +9,7 @@ import java.io.FileInputStream;
 public class Demo01 {
     public static void main(String[] args) throws Exception {
         //1. 创建文件字节输入流，并指定文件路径
-        FileInputStream fis = new FileInputStream("d:\\aaa.txt");
+        FileInputStream fis = new FileInputStream("d:\\bbb.txt");
 
         //2. 读取文件
         //2.1 一个一个字节读fis.read();

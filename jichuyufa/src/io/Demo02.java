@@ -15,7 +15,7 @@ public class Demo02 {
 //        fos.write(97);
 //        fos.write('b');
 //        fos.write('c');
-        String str = "hello world";
+        String str = "hello world你好";
         fos.write(str.getBytes(StandardCharsets.UTF_8));
         //3 关闭
         fos.close();
